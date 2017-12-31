@@ -16,6 +16,7 @@
 		19FFF86A1FF9921B0066851C /* Goal_Post_AgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8691FF9921B0066851C /* Goal_Post_AgainTests.swift */; };
 		19FFF8751FF9921B0066851C /* Goal_Post_AgainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8741FF9921B0066851C /* Goal_Post_AgainUITests.swift */; };
 		19FFF8871FF992990066851C /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8861FF992990066851C /* GoalCell.swift */; };
+		19FFF8891FF9A3B70066851C /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8881FF9A3B70066851C /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		19FFF8741FF9921B0066851C /* Goal_Post_AgainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal_Post_AgainUITests.swift; sourceTree = "<group>"; };
 		19FFF8761FF9921B0066851C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FFF8861FF992990066851C /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		19FFF8881FF9A3B70066851C /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		19FFF8821FF992340066851C /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				19FFF8881FF9A3B70066851C /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FFF8871FF992990066851C /* GoalCell.swift in Sources */,
+				19FFF8891FF9A3B70066851C /* GoalType.swift in Sources */,
 				19FFF8541FF9921A0066851C /* GoalVC.swift in Sources */,
 				19FFF8521FF9921A0066851C /* AppDelegate.swift in Sources */,
 				19FFF85A1FF9921B0066851C /* Goal_Post_Again.xcdatamodeld in Sources */,
